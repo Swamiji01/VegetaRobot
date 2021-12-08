@@ -263,7 +263,7 @@ SFW_STRINGS = (
 )
     
   
-REPO = "https://Github.com/Ctzfamily/VegetaRobot"
+REPO = "https://t.me/Darkaman"
 
   
   

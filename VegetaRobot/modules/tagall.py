@@ -30,7 +30,7 @@ async def mentionall(event):
   elif event.pattern_match.group(1) and event.reply_to_msg_id:
     return await event.respond("__Give me one argument!__")
   else:
-    return await event.respond("__Reply to a message or give me some text to mention others!__")
+    return await event.respond("__Reply to a message!__")
 
   if mode == "text_on_cmd":
     usrnum = 0
@@ -59,4 +59,4 @@ async def mentionall(event):
 
         
         
-        #© @darkamanchannel
+        #© @DARKAMANCHANNEL

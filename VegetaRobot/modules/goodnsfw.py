@@ -218,7 +218,7 @@ __handlers__ = [
 ]
 
 __help__ = """
-Module credits: [VegetaRobot](https://github.com/Ctzfamily/VegetaRobot/Vegeta/VegetaRobot/modules/goodnsfw.py) ,
+Module credits: [DARKAMAN](https:/t.me/darkaman) ,
 
 Usage:
    

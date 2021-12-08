@@ -79,58 +79,51 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- ──『[SAIYAN VEGETA](https://telegra.ph/file/561fa547f3c4940c95ddf.jpg)』
+ ──『[🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸](https://te.legra.ph/file/40f0d50ddca4000984e64.jpg)』
 
 Hey User!!✋
-𝐈 Am *Prince Vegeta* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
-*JOIN OFFICIAL* -
-[CHANNEL](t.me/pegasusUpdates) - [SUPPORT](t.me/pegasusSupportChat)\n
-──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
+🌸𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸* 𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼\n
+[𝓼𝓾𝓹𝓹𝓸𝓻𝓽](t.me/DARKAMANSUPPORT)  [𝓬𝓱𝓪𝓷𝓷𝓮𝓵](t.me/DARKAMANCHANNEL)\n
+               『*🌸𝓽𝓱𝓪𝓷𝓴𝓼 𝓯𝓸𝓻 𝓾𝓼𝓲𝓷𝓰🌸*』
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ Add Vegeta to Group ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="🌸𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹🌸",
+                            url="t.me/alexa_manager_robot?startgroup=true"),
                     ],
                    [
-                       InlineKeyboardButton(text="🌐 Network", url="t.me/pegasusXteam"),
-                       InlineKeyboardButton(text="🔔 Logs", url="t.me/pegasusLogs"),
+                       InlineKeyboardButton(text="🌸𝒸𝒽𝒶𝓃𝓃ℯ𝓁🌸", url="t.me/darkamanalexa"),
+                       InlineKeyboardButton(text="🌸𝒸𝒽𝒾𝓉 𝒸𝒽𝒶𝓉🌸", url="t.me/tdhgroup"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="👥 Support",
+                             text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                        InlineKeyboardButton(
-                             text="📢 Updates",
+                             text="🌸𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸",
                              url=f"https://t.me/{UPDATES_CHANNEL}"),
                         ],
                        [
-                           InlineKeyboardButton(text="🔐 HELP COMMADS 🔐", callback_data="help_back"
+                           InlineKeyboardButton(text="🌸𝓱𝓮𝓵𝓹 𝓪𝓷𝓭 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼🌸", callback_data="help_back"
          ),
     ],
 ] 
 
 HELP_STRINGS = """
-Hey there, I'm *Vegeta*!
-To make me functional, make sure that i have enough rights in your group.
-Helpful commands:
-- /start: Starts me! You've probably already used this.
-- /help: Sends this message; I'll tell you more about myself!
-- /donate: Gives you info on how to support me and my creator.
-If you want to report bugs or have any questions on how to use me then feel free to reach out: *@VegetaSupport.*
-All commands can be used with the following: *(/),(!),(?),(.),(~)*
-List of all the Modules:
-""".format(
+✘ 𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮𝔀 𝓲 𝓪𝓶 🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸 𝓽𝓸 𝓶𝓪𝓴𝓮 𝓶𝓮 𝓯𝓾𝓷𝓬𝓽𝓲𝓸𝓷𝓪𝓵, 𝓶𝓪𝓴𝓮 𝓼𝓾𝓻𝓮 𝓽𝓱𝓪𝓽 𝓲 𝓱𝓪𝓿𝓮 𝓮𝓷𝓸𝓾𝓰𝓱𝓽 𝓻𝓲𝓰𝓱𝓽𝓼 𝓲𝓷 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹.
+✘ /start: 𝓼𝓽𝓪𝓻𝓽𝓼 𝓶𝓮 𝔂𝓸𝓾'𝓿𝓮 𝓹𝓻𝓸𝓫𝓪𝓫𝓵𝔂 𝓪𝓵𝓻𝓮𝓪𝓭𝔂 𝓾𝓼𝓮𝓭 𝓽𝓱𝓲𝓼.
+✘ /help: 𝓼𝓮𝓷𝓭𝓼 𝓽𝓱𝓲𝓼 𝓶𝓮𝓼𝓼𝓪𝓰𝓮 𝓲 𝔀𝓲𝓵𝓵 𝓽𝓮𝓵𝓵 𝔂𝓸𝓾 𝓶𝓸𝓻𝓮 𝓪𝓫𝓸𝓾𝓽 𝓶𝔂𝓼𝓮𝓵𝓯 𝓪𝓵𝓵 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼 𝓬𝓪𝓷 𝓫𝓮 𝓾𝓼𝓮𝓭 𝔀𝓲𝓽𝓱 𝓽𝓱𝓮 𝓯𝓸𝓵𝓵𝓸𝔀𝓲𝓷𝓰 ✘ (/),(!),(?),(.),(~)
+""".format( 
     dispatcher.bot.first_name,
-    "" if not ALLOW_EXCL else "📝All commands can either be used with / or !.",
+    "" if not ALLOW_EXCL else "✘ 𝒶𝓁𝓁 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼 𝓬𝓪𝓷 𝓮𝓲𝓽𝓱𝓮𝓻 𝓫𝓮 𝓾𝓼𝓮𝓭 𝔀𝓲𝓽𝓱 / 𝓸𝓻 !.",
 )
 
-HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """Contact to **@PegasusXrobot**"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+HELP_MSG = "𝓬𝓵𝓲𝓬𝓴 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀 𝓽𝓸 𝓰𝓮𝓽 𝓱𝓮𝓵𝓹 𝓶𝓮𝓷𝓾𝓲𝓷 𝔂𝓸𝓾𝓻 𝓹𝓶."
+DONATE_STRING = """𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓽𝓸 [𝓭𝓪𝓻𝓴𝓪𝓶𝓪𝓷](t.me/darkaman)"""
+HELP_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
+GROUPSTART_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -241,15 +234,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*hey {},*\n*Super Saiyan here*\n*Power lavel time* : {} ".format(
+            GROUPSTART_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="✧ Support ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
-                  InlineKeyboardButton(text="✧ Updates ", url=f"t.me/VegetaUpdates"),
+                  InlineKeyboardButton(text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸 ", url=f"https://telegram.dog/{SUPPORT_CHAT}"),
+                  InlineKeyboardButton(text="🌸𝓾𝓹𝓭𝓪𝓽𝓮𝓼🌸", url=f"t.me/DARKAMANCHANNEL"),
                   ]
                 ]
             ),

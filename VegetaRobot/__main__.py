@@ -80,7 +80,6 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 [🌸](https://te.legra.ph/file/40f0d50ddca4000984e64.jpg)𝓱𝓮𝔂 𝓽𝓱𝓮𝓻𝓮 𝓶𝔂 𝓷𝓪𝓶𝓮 𝓲𝓼 *🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸* 𝓲'𝓶 𝓪 𝓹𝓸𝔀𝓮𝓻𝓯𝓾𝓵𝓵 𝓰𝓻𝓸𝓾𝓹 𝓶𝓪𝓷𝓪𝓰𝓮𝓻 𝓫𝓸𝓽 𝔀𝓲𝓽𝓱 𝓬𝓸𝓸𝓵 𝓶𝓸𝓭𝓾𝓵𝓮𝓼. 𝓯𝓮𝓵𝓵 𝓯𝓻𝓮𝓮 𝓽𝓸 𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹𝓼 𝓱𝓲𝓽 𝓱𝓮𝓵𝓹 𝓫𝓾𝓽𝓽𝓸𝓷 𝓽𝓸 𝓴𝓷𝓸𝔀 𝓶𝔂 𝓬𝓸𝓶𝓶𝓪𝓷𝓭𝓼\n
-
 [𝓼𝓾𝓹𝓹𝓸𝓻𝓽](t.me/DARKAMANSUPPORT)  [𝓬𝓱𝓪𝓷𝓷𝓮𝓵](t.me/DARKAMANCHANNEL)\n
 """
 
@@ -90,10 +89,6 @@ buttons = [
                             text="🌸𝓪𝓭𝓭 𝓶𝓮 𝓽𝓸 𝔂𝓸𝓾𝓻 𝓰𝓻𝓸𝓾𝓹🌸",
                             url="t.me/alexa_manager_robot?startgroup=true"),
                     ],
-                   [
-                       InlineKeyboardButton(text="🌸𝒸𝒽𝒶𝓃𝓃ℯ𝓁🌸", url="t.me/darkamanalexa"),
-                       InlineKeyboardButton(text="🌸𝒸𝒽𝒾𝓉 𝒸𝒽𝒶𝓉🌸", url="t.me/tdhgroup"),
-                     ],
                     [                  
                        InlineKeyboardButton(
                              text="🌸𝓼𝓾𝓹𝓹𝓸𝓻𝓽🌸",

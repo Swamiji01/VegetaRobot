@@ -26,7 +26,7 @@ from VegetaRobot.utils.pluginhelpers import fetch
 SUDOERS = OWNER_ID
 app = pgram # as pbot
 
-VEGETA_IMG= "https://telegra.ph/file/349e4fbadcc85920b43d8.jpg"
+VEGETA_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 
 async def _netcat(host, port, content):
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -49,15 +49,15 @@ async def paste(content):
 async def inline_help_func(__HELP__):
     buttons = InlineKeyboard(row_width=2)
     buttons.add(
-        InlineKeyboardButton("🔐 More Help.", url=f"t.me/VegetaRobot?start=help"),
-        InlineKeyboardButton("🔄 Go Inline", switch_inline_query_current_chat=""),
+        InlineKeyboardButton("•ᴍᴏʀᴇ ʜᴇʟᴘ•", url=f"t.me/alexa_manager_robot?start=help"),
+        InlineKeyboardButton("•ɢᴏ ɪɴʟɪɴᴇ•", switch_inline_query_current_chat=""),
     )
     answerss = [
         InlineQueryResultArticle(
             title="Inline Commands",
             description="Help Related To Inline Usage.",
             input_message_content=InputTextMessageContent(__HELP__),
-            thumb_url="https://telegra.ph/file/6d5d79218c5a49b6238e9.jpg",
+            thumb_url="https://te.legra.ph/file/40f0d50ddca4000984e64.jpg",
             reply_markup=buttons,
         )
     ]
@@ -71,23 +71,23 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     # ubot_state = 'Dead' if not await app2.get_me() else 'Alive'
     buttons.add(
-        InlineKeyboardButton("🔐 Main Bot", url="https://t.me/VegetaRobot?start=help"),
-        InlineKeyboardButton("🔄 Go Inline", switch_inline_query_current_chat=""),
+        InlineKeyboardButton("•ᴍᴀɪɴ ʙᴏᴛ•", url="https://t.me/ALEXA_MANAGER_ROBOT?start=help"),
+        InlineKeyboardButton("•ɢᴏ ɪɴʟɪɴᴇ•", switch_inline_query_current_chat=""),
     )
      
     msg = f"""
-**[Vegeta⚡](https://github.com/Ctzfamily/VegetaRobot):**
-**🤖 MainBot:** `{bot_state}`
-**✨ Python:** `3.9`
-**🌟 Pyrogram:** `{pyrover}`
-**🔷 Platform:** `{sys.platform}`
-**💫 Profiles:** [BOT](t.me/VegetaRobot) | [REPO](https://github.com/Ctzfamily/VegetaRobot)
+**[🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽🌸](https://te.legra.ph/file/40f0d50ddca4000984e64.jpg):**
+**🔥 ᴍᴀɪɴ ʙᴏᴛ ✘** `{bot_state}`
+**✨ ᴘʏᴛʜᴏɴ ʙᴏᴛ ✘** `3.9`
+**❤️ ᴘʏʀᴏɢʀᴀᴍ ✘** `{pyrover}`
+**😍 ᴘʟᴀᴛғᴏʀᴍ ✘** `{sys.platform}`
+**🌺 ᴘʀᴏғɪʟᴇs ✘** [ʙᴏᴛ](t.me/alexa_manager_robot) | [ᴜᴘᴅᴀᴛᴇs](t.me/darkamanchannel)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/6d5d79218c5a49b6238e9.jpg",
+            thumb_url="https://te.legra.ph/file/40f0d50ddca4000984e64.jpg",
             input_message_content=InputTextMessageContent(
               msg, disable_web_page_preview=True
             ),

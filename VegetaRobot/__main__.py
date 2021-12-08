@@ -115,7 +115,7 @@ HELP_STRINGS = """
 HELP_MSG = "𝓬𝓵𝓲𝓬𝓴 𝓽𝓱𝓮 𝓫𝓾𝓽𝓽𝓸𝓷 𝓫𝓮𝓵𝓸𝔀 𝓽𝓸 𝓰𝓮𝓽 𝓱𝓮𝓵𝓹 𝓶𝓮𝓷𝓾𝓲𝓷 𝔂𝓸𝓾𝓻 𝓹𝓶."
 DONATE_STRING = """𝓬𝓸𝓷𝓽𝓪𝓬𝓽 𝓽𝓸 [𝓭𝓪𝓻𝓴𝓪𝓶𝓪𝓷](t.me/darkaman)"""
 HELP_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
-GROUPSTART_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
+START_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* ✘ {} ".format(
+            START_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* ✘ {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,

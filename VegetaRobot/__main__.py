@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* : {} ".format(
+            GROUPSTART_IMG, caption= "*𝓱𝓮𝔂 {},*\n*🌸𝓪𝓵𝓮𝔁𝓪 𝓻𝓸𝓫𝓸𝓽 𝓲𝓼 𝓱𝓮𝓪𝓻🌸*\n*🌸𝓹𝓸𝔀𝓮𝓻 𝓵𝓮𝓿𝓮𝓵 𝓽𝓲𝓶𝓮🌸* ✘ {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,

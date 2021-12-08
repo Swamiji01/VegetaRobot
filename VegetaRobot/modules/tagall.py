@@ -8,7 +8,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 
 from VegetaRobot import telethn
 
-@telethn.on(events.NewMessage(pattern="^/tagall|@all?(.*)"))
+@telethn.on(events.NewMessage(pattern="/tagall|@all?(.*)"))
 async def mentionall(event):
   if event.is_private:
     return await event.respond("Use This In Channel or Group!")
@@ -59,4 +59,4 @@ async def mentionall(event):
 
         
         
-        #© @pegasusXteam
+        #© @darkamanchannel

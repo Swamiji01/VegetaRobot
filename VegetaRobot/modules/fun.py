@@ -16,7 +16,7 @@ from VegetaRobot.modules.disable import DisableAbleCommandHandler, DisableAbleMe
 from VegetaRobot.modules.helper_funcs.alternate import typing_action
 from VegetaRobot.modules.helper_funcs.extraction import extract_user
 
-GN_IMG= "https://telegra.ph/file/6b67b1f44a669a634cab8.jpg"
+GN_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 
 @run_async
 @typing_action
@@ -26,7 +26,7 @@ def goodnight(update, context):
     reply = f"*Hey {escape_markdown(first_name)} \nGood Night! 😴*"
     message.reply_photo(GN_IMG,reply, parse_mode=ParseMode.MARKDOWN)
 
-GM_IMG= "https://telegra.ph/file/e3b27f1b746344c8fdb28.jpg"
+GM_IMG= "https://te.legra.ph/file/40f0d50ddca4000984e64.jpg"
 @run_async
 @typing_action
 def goodmorning(update, context):
@@ -189,5 +189,5 @@ dispatcher.add_handler(DARE_HANDLER)
 
 
 
-#guys this it you like pegasusXteam ask join @pegasusSupportofficial
-# © pegasusXteam
+#join @DARKAMANCHANNEL
+# © @DARKAMANSUPPORT
